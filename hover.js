@@ -40,3 +40,9 @@ function hoverboilermaker(element) {
         
         function unhoverinabsentia(element) {
         element.setAttribute('src', 'in_absentia_front.jpg');}
+
+        function hovercaring(element) {
+            element.setAttribute('src', 'caring-back.jpg');}
+            
+            function unhovercaring(element) {
+            element.setAttribute('src', 'Caring.jpg');}
