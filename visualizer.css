@@ -89,6 +89,10 @@ position: fixed;
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 
+.audioplayer {
+	margin-top: 25%; 
+	text-align: center;
+}
 
 @media screen and (max-width: 600px) {
 .video-background {
@@ -96,6 +100,9 @@ position: fixed;
 }
 body {
 	background-image: url(london-parrots-mobile.jpg);
+}
+.audioplayer {
+	margin-top: 50px;
 }
 }
 
